@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style>
-*{color: white;}
+*{color: white;mix-blend-mode: difference;}
 .total-container {
   margin: 0 auto;
   min-height: 100vh;
