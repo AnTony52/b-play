@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1>Banner</h1>
-    <img class="banner" src="~/assets/img/Banner/banner.png" alt="">
+    <img class="banner" src="~/static/img/Banner/banner.png" alt="">
   </section>
 </template>
 
