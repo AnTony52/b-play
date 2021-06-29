@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   webpack: config => {
-    config.resolve.modules.push(path.resolve('./'))
+    config.resolve.modules.push(path.resolve('./b-play'))
 
     return config
   }
