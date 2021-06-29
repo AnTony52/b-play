@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   webpack: config => {
-    config.resolve.modules.push(path.resolve())
+    config.resolve.modules.push(path.resolve('./'))
 
     return config
   }
@@ -10,7 +10,7 @@ module.exports = {
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router: { base: '.' },
+  router: { base: '/b-play/' },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Bplay',
