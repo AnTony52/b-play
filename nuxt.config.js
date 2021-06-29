@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   webpack: config => {
-    config.resolve.modules.push(path.resolve('./b-play'))
+    config.resolve.modules.push(path.resolve('./'))
 
     return config
   }
@@ -26,7 +26,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
+  loading: false,
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
