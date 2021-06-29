@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Banner</h1>
+    <h1>Banner head</h1>
     <img class="banner" src="~/static/img/Banner/banner.png" alt="">
   </section>
 </template>
