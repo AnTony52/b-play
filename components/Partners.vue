@@ -95,5 +95,12 @@ export default {
 .partners .right-side .item img {
   width: 30%;
 }
+@media screen and (max-width: 767px) {
+  .partners .left-side {min-height: 500px;}
+  .partners .left-side img {
+    position: absolute; width: 100%;margin-left: -15px;top: 50%;transform: translateY(-50%);
+    }
+  .partners .row {flex-direction: column-reverse;}
+}
 </style>
  

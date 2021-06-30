@@ -77,4 +77,9 @@ mounted() {
 .client .client-list img {
   width: calc(20% - 20px);
 }
+@media screen and (max-width: 767px) {
+  .client {
+    padding: 100px 0 0;
+  }
+}
 </style>

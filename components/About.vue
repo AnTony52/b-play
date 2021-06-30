@@ -99,4 +99,11 @@ mounted() {
 .about .bottom-section .label-item p {
   max-width: 150px;
 }
+@media screen and (max-width: 767px) {
+  .about .bottom-section {height: 300px;background-repeat: no-repeat;}
+  .about .bottom-section .label-item .item {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 </style>

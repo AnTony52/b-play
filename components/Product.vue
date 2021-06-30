@@ -174,4 +174,7 @@ export default {
     margin: 25px auto;
     padding: 10px;
     }
+    @media screen and (max-width: 767px) {
+      .product .grid-wrapper {grid-template-columns: 1fr;}
+    }
 </style>
