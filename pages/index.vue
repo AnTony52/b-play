@@ -1,11 +1,11 @@
 <template>
-  <div class="total-container">
+  <div class="">
     <Header/>
     <Banner/>
     <About/>
     <Product/>
-    <Client/>
     <Partner/>
+    <Client/>
     <Contact/>
   </div>
 </template>
@@ -27,49 +27,52 @@ export default {
     Client,
     Partner,
     Contact
-  }
+  },
+  
 }
 </script>
 
 <style>
-section{color: white;mix-blend-mode: difference;}
-.total-container {
+.container {
   margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+:root {
+  --fs-sm: 13px;
+  --fs-md: 24px;
+  --fs-lg: 48px;
+  --red: #FF3232;
+  --bg-primary: #15161E;
+}
+body {
+  background-color: var(--bg-primary);
+}
+.red {
+  color: var(--red);
+}
+.title div,
+.subtitle div {display: inline-block;}
+.title, .subtitle {overflow: hidden;}
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  font-size: var(--fs-lg);
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
+.subtitle, .subtitle *{color: var(--red);}
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+  font-size: var(--fs-md);
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
-.links {
-  padding-top: 15px;
+ul {
+  list-style-type: none;  
 }
+a,a:hover {color: white;text-decoration: none;}
 </style>
