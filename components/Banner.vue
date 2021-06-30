@@ -48,5 +48,6 @@ export default {
   .banner h1 {
     top: 50%;
   }
+  .banner h1, .banner h1 * {font-size: 48px;}
 }
 </style>

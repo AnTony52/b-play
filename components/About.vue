@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <div class="top-section">
-      <div class="content-wrapper">
+      <div class="content-wrapper container">
         <h3 class="subtitle"> <div>BPLAY</div>
         <div>GAME</div></h3>
         <h2 class="title"><div>WHO WE ARE?</div></h2>
