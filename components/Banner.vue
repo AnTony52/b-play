@@ -44,4 +44,9 @@ export default {
 .banner h1 span {
   display: block;
 }
+@media screen and (max-width: 767px) {
+  .banner h1 {
+    top: 50%;
+  }
+}
 </style>

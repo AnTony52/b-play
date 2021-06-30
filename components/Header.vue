@@ -23,7 +23,7 @@
           </li>
         </ul>
       </div>
-      <div class="">
+      <div class="right-side">
         <ul class="lang-navigation">
           <li class="current"><img src="../static/img/Header/flag.svg" alt="flag"><span>ENG</span><img src="../static/img/Header/arrow-down.svg" alt="arrow-down"></li>
         </ul>
@@ -109,5 +109,13 @@ export default {
   }
   .hamburger {
     display: none;
+  }
+  @media screen and (max-width: 767px) {
+    .desktop-navigation {display: none;}
+    header .right-side {
+      display: flex;
+      align-items: center;
+    }
+    .hamburger {display: block;margin-left: 20px;cursor: pointer;;}
   }
 </style>
